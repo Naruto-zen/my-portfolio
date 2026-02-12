@@ -15,9 +15,9 @@ const Approach = () => {
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="Hope We'll collaborate to map out the  website's goals, target audience, 
+          and key functionalities. We'll discuss and learn deeply things like  site structure, cool animation , Uses of Next.js and MERN skills,deployment and navigation  while developing projects."
+           
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -28,8 +28,8 @@ const Approach = () => {
         <Card
           title="Development & Progress Update"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
+          des="Once we step on the plan, I cue my lofi playlist and dive into
+          coding. From initial sketches to solving problems till i complete project , I keep you updated
           every step of the way."
         >
           <CanvasRevealEffect
@@ -50,9 +50,8 @@ const Approach = () => {
         <Card
           title="Development & Launch"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="This is where the magic happens! and dream comes true , 
+          I'll find the way to solve or learn  everything which comes into my way, upgrading myself everyday from real project to become what i imagined myself ."
         >
           <CanvasRevealEffect
             animationSpeed={3}
