@@ -1,14 +1,14 @@
 "use client";
-
 import { navItems } from "@/data";
+import dynamic from "next/dynamic";
 
-import Hero from "@/components/Hero";
-import Grid from "@/components/Grid";
+const Hero = dynamic(() => import("@/components/Hero"), { ssr: false });
+const Grid = dynamic(() => import("@/components/Grid"), { ssr: false });
 import Footer from "@/components/Footer";
 // import Clients from "@/components/Clients";
 import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
-import RecentProjects from "@/components/RecentProjects";
+const RecentProjects = dynamic(() => import("@/components/RecentProjects"), { ssr: false });
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 
 const Home = () => {

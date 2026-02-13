@@ -104,7 +104,11 @@ export const projects = [
   },
 ];
 
-export const testimonials = [
+export const testimonials = [{
+    quote: "Building my portfolio...",
+    name: "Naruto",
+    title: "Developer",
+  }
 
  ];
 
